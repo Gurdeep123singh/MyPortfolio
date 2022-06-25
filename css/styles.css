@@ -1,0 +1,309 @@
+body{
+  font-family: Montserrat;
+}
+
+/* home section */
+
+#Home{
+  background-color:  #333333 ;
+}
+.container-fluid{
+  padding: 3% 8%;
+  padding-top: 0;
+}
+.navbar{
+
+  padding-bottom: 12%;
+
+}
+
+/* .navbar.sticky{
+  padding: 15% 0;
+  background-color: #F6BE00;
+} */
+
+.navbar-fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}
+.navbar-brand{
+  font-family: Allura,Ubuntu;
+  font-weight: 400;
+  font-size: 3rem;
+  padding: 0 0;
+}
+
+.navbar-nav a{
+  font-size: 1.3rem;
+  color:#fff;
+  font-family: Ubuntu;
+}
+
+
+.navbar-nav a:hover{
+  color:#939799;
+  text-decoration: underline;
+  text-decoration-color: #F6BE00;
+  text-decoration-thickness: 0.2rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+/* Title section in home */
+.home-title{
+  text-align: center;
+}
+
+.change_content:after{
+  content:'';
+  animation: changeText 10s infinite linear;
+  color: #F6BE00;
+}
+@keyframes changeText {
+  0%{content:"Programmer....";}
+  30%{content: "Web Developer....";}
+  60%{content: "Web Designer....";}
+  80%{content:"Teacher....";}
+  100%{content:"Learner....";}
+}
+#Home h1{
+
+  font-weight: 900;
+  color: #fff;
+  font-size: 3rem;
+  line-height: 2.5;
+}
+
+.home_h1 span{
+  color:#F6BE00;
+}
+.p_title{
+  font-size: 3rem;
+  color: #fff;
+  line-height: 2;
+}
+
+
+.btn-home{
+  margin: 2% 5%;
+  font-size: 1.5rem;
+}
+
+/* About section */
+
+#About{
+  background-color: #F6BE00;
+}
+
+.profile{
+  text-align: center;
+}
+.About-h1{
+  padding-top: 4%;
+  padding-bottom: 8%;
+  font-size: 5rem;
+  font-weight: 800;
+}
+.profile_img{
+  width: 50%;
+  border-radius: 50%;
+}
+.About-para{
+  font-size: 2rem;
+}
+
+.about-btn{
+  font-size: 1.1rem;
+  padding: 1% 1%;
+  margin-left: 4%;
+}
+.fa-linkedin{
+  font-size: 1rem;
+  font-weight: 400;
+  margin-left: 1rem;
+}
+
+/* Education section */
+
+#Education{
+  background-color:  #333333 ;
+  text-align: center;
+  padding: 2% 0;
+}
+
+.education_h1{
+  color:#fff;
+  font-size: 5rem;
+  font-weight: 800;
+  padding: 2% 0;
+}
+.education_items i{
+  color:#F6BE00;
+  font-size: 2rem;
+  padding: 3% 1%;
+}
+.education_items a{
+  text-decoration: none;
+  color:#F6BE00;
+  font-size: 2.5rem;
+  padding: 3% 2%;
+}
+.education_items h2{
+  color :#24A19C;
+  padding-bottom: 2% ;
+  margin-left: 5%;
+}
+
+.education_items p{
+  color:#fff;
+  font-size: 1.5rem;
+  padding-bottom: 2%;
+  border-bottom: 2px solid #F6BE00;
+  border-bottom-width: 30%;
+  margin-left: 2%;
+
+}
+.education_items span{
+  color:#F6BE00;
+  padding-left: 2%;
+}
+
+/* project section */
+
+#Project{
+  background-color: #F6BE00;
+  text-align: center;
+
+}
+.project_h1{
+  font-size: 5rem;
+  font-weight: 800;
+  padding: 3.5% 0;
+
+}
+.projects_img{
+  width: 25%;
+  border-radius: 50%;
+  padding: 3% 0;
+}
+.project_h2{
+  font-size: 2.5rem;
+  font-weight: 300;
+  padding: 1.5% 0;
+}
+.project_para{
+  font-size: 1.5rem;
+}
+
+/* skills section */
+#skills{
+  background-color: #333333 ;
+  padding: 5% 0;
+}
+.skills_h1{
+  font-size: 5rem;
+  font-weight: 800;
+  color: #fff;
+  text-align: center;
+}
+.skills_images{
+  text-align: center;
+
+}
+.skills_images img{
+  width:25%;
+  padding: 5% 7%;
+  transition: transform .2s; /* Animation */
+  cursor: pointer;
+}
+.skills_images img:hover{
+  transform: scale(1.5);
+}
+
+/* contact me section */
+
+#contact{
+  padding: 5% 0;
+  background-color: #F6BE00;
+  text-align: center;
+}
+.contact_h1{
+  font-size: 5rem;
+  font-weight: 800;
+  color:#000;
+
+  padding: 3% 0;
+}
+.row{
+  padding: 3% 12%;
+}
+.card_item{
+  font-size: 2rem;
+}
+
+.img_round{
+  margin: 0 40%;
+  background-color: #F6BE00;
+  border-radius: 50%;
+  transition: transform .2s; /* Animation */
+}
+.img_round i{
+  color: #000;
+}
+.img_round:hover{
+  transform: scale(1.5);
+}
+
+/* footer section */
+
+#footer{
+  background-color: #000;
+  color: #fff;
+}
+
+
+.footer_h2{
+  font-size: 2rem;
+}
+
+.bodyitems{
+  font-size: 1rem;
+}
+.col1 a{
+  font-size: 1.5rem;
+  transition: transform .2s; /* Animation */
+}
+
+.col1_i{
+  width: 20%;
+}
+.col1_i:hover{
+  transform: scale(1.5);
+}
+.footer_a{
+  text-decoration: none;
+  color: #F6BE00;
+
+}
+
+.footer_a:hover{
+  color: #24A19C;
+}
+.col3 i{
+  font-size: 1.5rem;
+}
+.end_h2{
+  text-align: center;
+  color: #F6BE00;
+}
+.end_h2 img{
+  width: 5%;
+}
+
+.copyright{
+  text-align: center;
+  color: #fff;
+  padding: 5% 0;
+  font-size: 1.5rem;
+}
