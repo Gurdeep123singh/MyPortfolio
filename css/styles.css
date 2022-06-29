@@ -1,5 +1,6 @@
 body{
   font-family: Montserrat;
+  width:100%;
 }
 
 /* home section */
@@ -161,8 +162,8 @@ body{
   padding-bottom: 2%;
   border-bottom: 2px solid #F6BE00;
   border-bottom-width: 30%;
-  margin-left: 2%;
-
+  margin-left: 1%;
+  margin-right: 1%;
 }
 .education_items span{
   color:#F6BE00;
@@ -306,4 +307,21 @@ body{
   color: #fff;
   padding: 5% 0;
   font-size: 1.5rem;
+}
+
+@media (max-width:1694px) {
+   .container-fluid {
+    padding-left: .2rem;
+    padding-right: .2rem;
+  }
+  .footer_a{
+    overflow-wrap: break-word;
+  }
+  .navbar-toggler{
+    margin-right: 1%;
+  }
+  .project_para{
+    margin-left: 2%;
+    margin-right: 2%;
+  }
 }
