@@ -70,7 +70,7 @@
 
         <button type="button" class="btn btn-outline-warning btn-home" onclick="window.location.href ='mailto:gurdeepsingh121001@gmail.com'; ">
           <i class="fa fa-envelope" aria-hidden="true"></i> Contact-me</button>
-        <button type="button" class="btn btn-dark btn-home" ><i class="fa fa-arrow-circle-down"></i> Download Cv</button>
+        <button type="button" class="btn btn-dark btn-home" ><i class="fa fa-arrow-circle-down"></i><a href="https://drive.google.com/file/d/1c6gCLzT2DjNvKlKEgBgSCDpcVcn_my2x/view?usp=sharing" download="resume" target="_blank"> Download Cv</a> </button>
 
       </div>
     </div>
@@ -104,16 +104,21 @@
         <p>Delhi University <span>(2020-2023)</span></p>
       </div>
       <div class="item_2">
+        <i class="fa fa-graduation-cap" aria-hidden="true"></i><a href="#">I.G.N.O.U</a>
+        <h2>Masters of Business Administration</h2>
+        <p>I.G.N.O.U <span>(2020 - Present)</span></p>
+      </div>
+      <div class="item_3">
         <i class="fa fa-graduation-cap" aria-hidden="true"></i><a href="#">Delhi University</a>
         <h2>Bachelor of Science(Computer Science)</h2>
         <p>Delhi,India <span>(2017-2020)</span></p>
       </div>
-      <div class="item_3">
+      <div class="item_4">
         <i class="fa fa-book" aria-hidden="true"></i><a href="#">St.Joseph's Convent School</a>
         <h2>Senior School</h2>
         <p>Faridabad,Haryana,India <span>(2014-2016)</span></p>
       </div>
-      <div class="item_4">
+      <div class="item_5">
         <i class="fa fa-book" aria-hidden="true"></i><a href="#">St.Joseph's Convent School</a>
         <h2>Secondary School</h2>
         <p>Faridabad,Haryana,India <span>(2014)</span></p>
@@ -132,24 +137,42 @@
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <div class="item1 "onclick="makeUrl()" >
-            <img class="projects_img" src="images/drum_set.jpg" alt="drum_set">
+          <div class="item1">
+            <a href="https://github.com/Gurdeep123singh/ecommerce" target="_blank"><img class="projects_img" src="images/ecommerce.png" alt="ecommerce"></a>
+            <h2 class="project_h2">Ecommerce</h2>
+            <p class="project_para">The React based web application which is using stripe api for payment. In this app we can add or remove an item .</p>
+          </div>
+        </div>
+        <div class="carousel-item ">
+          <div class="item2">
+            <a href="https://gurdeep123singh.github.io/Sargam-A-music-website/" target="_blank"><img class="projects_img" src="images/sargam.jpg" alt="Music Website"></a>
+            <h2 class="project_h2">Sargam-A Music Website</h2>
+            <p class="project_para">The web application which is developed by using HTML,CSS,JS.
+              This app has different types of songs
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item ">
+          <div class="item3">
+            <a href="https://github.com/Gurdeep123singh/simon-game" target="_blank"><img class="projects_img" src="images/simon.jpg" alt="Simon game"></a>
+            <h2 class="project_h2">Simon Game</h2>
+            <p class="project_para">The web application which is developed by using HTML,CSS,JS.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="item4 "onclick="makeUrl()" >
+            <a href="https://github.com/Gurdeep123singh/drum-kit" target="_blank" ><img class="projects_img" src="images/drum_set.jpg" alt="drum_set"></a>
             <h2 class="project_h2">Drum Kit</h2>
             <p class="project_para">it is a simple musical game. It is a simple arcade game which is played with a tap.
               The user has to use the keyboard in order to play the game.</p>
           </div>
         </div>
-        <div class="carousel-item">
-          <div class="item2">
-            <img class="projects_img" src="images/dice.jpg" alt="dice">
-            <h2 class="project_h2">Dice Game</h2>
-            <p class="project_para">The Dice Game is based on a two-player. Both players roll the dice and the player
-              who gets the highest phase value will win the game..</p>
-          </div>
-        </div>
+        
 
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -280,7 +303,8 @@
     <h1 class="copyright">Copyright © 2022</h1>
   </section>
 
-  <script src="js/index.js" charset="utf-8"></script>
+  
 </body>
+<script src="js/index.js"></script>
 
 </html>

@@ -1,3 +1,7 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
 body{
   font-family: Montserrat;
   width:100%;
@@ -18,13 +22,18 @@ body{
 
 }
 
-/* .navbar.sticky{
-  padding: 15% 0;
+.navbar.sticky{
+  padding: 1% 0px;
   background-color: #F6BE00;
-} */
+  
+}
+.navbar-brand.sticky{
+  color: #212529;
+}
+
 
 .navbar-fixed-top.scrolled {
-  background-color: #fff !important;
+  /* background-color: #fff !important; */
   transition: background-color 200ms linear;
 }
 .navbar-brand{
@@ -50,6 +59,14 @@ body{
 
 .nav-item{
   padding: 0 18px;
+}
+a{
+  color: #F6BE00;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #fff;
 }
 /* Title section in home */
 .home-title{
@@ -323,5 +340,8 @@ body{
   .project_para{
     margin-left: 2%;
     margin-right: 2%;
+  }
+  .education_h1{
+    font-size: 4rem;
   }
 }
